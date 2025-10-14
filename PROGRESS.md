@@ -1,6 +1,6 @@
 # Claude Code Guide - Progress Tracker
 
-## Overall Progress: 3/13 sections complete
+## Overall Progress: 7/14 sections complete
 
 ---
 
@@ -10,15 +10,16 @@
 - [ ] 2. Getting Started with Claude Code
 - [ ] 3. Important Files
 - [ ] 4. Plan, Auto-accept, By-Pass
-- [ ] 5. Tool usage (allow, deny)
+- [x] 5. Tool usage (allow, deny)
 - [ ] 6. Context Window management
 - [ ] 7. Your First Application
 - [ ] 8. Adding functionality to existing codebase
 - [x] 9. Documenting your codebase
-- [ ] 10. Leveraging MCP to improve your workflows
-- [ ] 11. Slash Commands
+- [x] 10. Leveraging MCP to improve your workflows
+- [x] 11. Slash Commands
 - [x] 12. Subagents
 - [ ] 13. Claude Code tendencies
+- [x] 14. Use Claude Code with DeepSeek Azure
 
 ---
 
@@ -151,27 +152,27 @@
 ---
 
 ### 10. Leveraging MCP to improve your workflows
-**Status**: Not Started  
+**Status**: ✅ Completed
 **Requirements for this section**:
-- [ ] Introduction subsection
-- [ ] Main subsection: "MCP Integration and Workflow Enhancement"
-- [ ] Official documentation references
-- [ ] Examples: Required (MCP usage examples)
-- [ ] DOS.md: Required (MCP best practices)
+- [x] Introduction subsection
+- [x] Main subsection: "MCP Integration and Workflow Enhancement"
+- [x] Official documentation references
+- [x] Examples: Required (MCP usage examples)
+- [x] DOS.md: Required (MCP best practices)
 - [ ] DONTS.md: Optional
 
-**Notes**: Advanced feature - needs comprehensive coverage
+**Notes**: Comprehensive MCP integration completed with real-world GitLab implementation. Includes custom MCP server (`gitlab_mcp_server/`), automated setup (`/gitlab-setup`), MR review workflow (`/mr-review_gitlab`), three specialized review agents (code-quality, documentation, README), and parallel agent orchestration. Complete with 4 detailed examples: setup workflow, MR review, server implementation, and parallel execution patterns.
 
 ---
 
 ### 11. Slash Commands
-**Status**: Not Started  
+**Status**: ✅ Completed 
 **Requirements for this section**:
-- [ ] Introduction subsection
-- [ ] Main subsection: "Custom Command Creation and Usage"
-- [ ] Official documentation references
-- [ ] Examples: Required (command examples)
-- [ ] DOS.md: Required (command design best practices)
+- [x] Introduction subsection
+- [x] Main subsection: "Custom Command Creation and Usage"
+- [x] Official documentation references
+- [x] Examples: Required (command examples)
+- [x] DOS.md: Required (command design best practices)
 - [ ] DONTS.md: Optional
 
 **Notes**: Customization feature
@@ -210,6 +211,20 @@
 - [ ] Security considerations
 - [ ] Resilience features
 - [ ] Fixing symptoms vs root causes
+
+---
+
+### 14. Use Claude Code with DeepSeek Azure
+**Status**: ✅ Completed
+**Requirements for this section**:
+- [x] Introduction subsection
+- [x] Main subsection: "Azure DeepSeek Integration"
+- [x] Official documentation references
+- [x] Examples: Required (integration examples)
+- [ ] DOS.md: Optional (integration best practices - included in main guide)
+- [ ] DONTS.md: Optional (common integration mistakes - included in main guide)
+
+**Notes**: Complete Azure DeepSeek integration guide via LiteLLM proxy. Includes step-by-step setup, configuration examples, security best practices, and troubleshooting guidance. Security notes and best practices are integrated directly into the main guide content.
 
 ---
 
